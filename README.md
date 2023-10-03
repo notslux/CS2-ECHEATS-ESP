@@ -15,7 +15,7 @@
 
 ## About The Project
 
-![Screen Shot]([68747470733a2f2f63646e2e6469736.png])
+dont know
 
 ## 🎡 CS2 External ESP
 
