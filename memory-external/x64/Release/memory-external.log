@@ -1,0 +1,28 @@
+﻿  auto_updater.cpp
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\classes\auto_updater.cpp(109,32): warning C4101: 'e': unreferenced local variable
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\classes\auto_updater.cpp(180,32): warning C4101: 'e': unreferenced local variable
+  config.cpp
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\classes\config.cpp(16,32): warning C4101: 'e': unreferenced local variable
+  main.cpp
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\classes\render.hpp(49,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(109,21): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(108,21): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(107,31): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(106,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(118,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(116,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(115,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(129,31): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(128,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(138,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\hacks\hack.hpp(137,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\main.cpp(117,17): warning C4312: 'reinterpret_cast': conversion from 'LONG' to 'HINSTANCE' of greater size
+  memory.cpp
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\memory\handle_hijack.hpp(197,12): warning C4244: '*=': conversion from 'double' to 'DWORD', possible loss of data
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\memory\handle_hijack.hpp(248,29): warning C4312: 'type cast': conversion from 'ULONG' to 'DWORD *' of greater size
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\memory-external\classes\vector.hpp(27): warning C4172: returning address of local variable or temporary
+  All 1911 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  memory-external.vcxproj -> C:\Users\alils\OneDrive\Desktop\cs2-external-esp-main\cs2-external-esp-main\x64\Release\cs2-external-esp.exe
