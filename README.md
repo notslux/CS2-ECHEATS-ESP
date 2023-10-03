@@ -11,7 +11,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/notslux/SC2-ECHEATS/total) ![Issues](https://img.shields.io/github/issues/notslux/SC2-ECHEATS) ![License](https://img.shields.io/github/license/notslux/SC2-ECHEATS) 
+
 
 ## About The Project
 
