@@ -64,8 +64,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 int main() {
 	SetConsoleTitle("CS2 | ECHEATS ESP");
-	std::cout << "[Info] Discord:https://discord.gg/VUxVQJcDfD " << std::endl;
+	std::cout << "[Info] Discord:https://discord.gg/VUxVQJcDfD \n" << std::endl;
 	std::cout << "[Info] ECHEATS Website:https://euma.sellpass.io/ \n" << std::endl;
+	std::cout << "[Info] ECHEAT ESP will be updated here:https://github.com/notslux/CS2-ECHEATS \n" << std::endl;
 
 	hack::process = std::make_shared<pProcess>();
 
@@ -75,7 +76,9 @@ int main() {
 	else
 		std::cout << "[updater] Error reading config file, reseting to the default state\n" << std::endl;
 
+#ifndef _UC
 	updater::check_and_update(config::automatic_update);
+#endif
 
 	std::cout << "[cs2] Waiting for cs2.exe..." << std::endl;
 
@@ -134,7 +137,11 @@ int main() {
 	ShowWindow(hWnd, TRUE);
 	//SetActiveWindow(hack::process->hwnd_);
 
+#ifndef _UC
 	std::cout << "\n[settings] In Game keybinds:\n\t[F5] enable/disable Team ESP\n\t[F6] enable/disable automatic updates\n\t[fin] Unload esp.\n" << std::endl;
+#else
+	std::cout << "\n[settings] In Game keybinds:\n\t[F5] enable/disable Team ESP\n\t[fin] Unload esp\n" << std::endl;
+#endif
 
 	// Message loop
 	MSG msg;
@@ -143,7 +150,9 @@ int main() {
 		if (GetAsyncKeyState(VK_END) & 0x8000) break;
 
 		if (GetAsyncKeyState(VK_F5) & 0x8000) { config::team_esp = !config::team_esp; config::save(); Beep(700, 100); };
+#ifndef _UC
 		if (GetAsyncKeyState(VK_F6) & 0x8000) { config::automatic_update = !config::automatic_update; config::save(); Beep(700, 100); }
+#endif
 
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
